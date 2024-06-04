@@ -1,0 +1,3 @@
+npx create-expo-app --template blank
+
+expo start --tunnel
