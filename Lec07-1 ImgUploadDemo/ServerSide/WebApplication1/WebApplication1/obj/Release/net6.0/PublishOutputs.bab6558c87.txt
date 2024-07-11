@@ -1,0 +1,11 @@
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.exe
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.dll
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.deps.json
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.runtimeconfig.json
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\WebApplication1.pdb
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ruppin\Desktop\ENG_2023-2024_RN\Lec07-1 ImgUploadDemo\ServerSide\WebApplication1\WebApplication1\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
