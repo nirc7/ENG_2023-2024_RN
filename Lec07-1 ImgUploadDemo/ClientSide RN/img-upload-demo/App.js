@@ -11,7 +11,7 @@ export default function App() {
       mediaTypes: ImagePicker.MediaTypeOptions.All,
       allowsEditing: true,
       aspect: [4, 3],
-      quality: 0.1,
+      quality: 0.4,
     });
 
     console.log(result);
@@ -22,13 +22,15 @@ export default function App() {
   };
 
   const btnImgUpload = () => {
+
+    console.log(image);
     imageUpload(image, 'cp1.jpeg');
   }
 
   imageUpload = (imgUri, picName) => {
-    let urlAPI = "https://yarin5535.bsite.net/api/files/upload";
+    let urlAPI = "https://niryael1234.bsite.net/api/files/upload";
     let dataI = new FormData();
-    dataI.append('picture', {
+    dataI.append('file', { //HERE File not picture!!!
       uri: imgUri,
       name: picName,
       type: 'image/jpeg'
@@ -41,6 +43,7 @@ export default function App() {
 
     fetch(urlAPI, config)
       .then((res) => {
+        console.log(res.status);
         if (res.status == 200) {
           console.log(res.status);
           return res.json();

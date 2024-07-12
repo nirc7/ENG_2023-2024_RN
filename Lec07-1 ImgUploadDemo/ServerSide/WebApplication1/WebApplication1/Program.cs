@@ -40,14 +40,14 @@ namespace WebApplication1
 
             app.UseAuthorization();
 
-            //app.UseStaticFiles(new StaticFileOptions
-            //{
-            //    FileProvider = new PhysicalFileProvider(
-            //        Path.Combine( builder.Environment.ContentRootPath, "Uploads")),
-            //    RequestPath = "/Uploads" // Optional: change the request path if needed
-            //});
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(
+                    Path.Combine(builder.Environment.ContentRootPath, "Uploads")),
+                RequestPath = "/Uploads" // Optional: change the request path if needed
+            });
 
-            app.UseStaticFiles();
+            //app.UseStaticFiles();
 
             app.UseCors();
 

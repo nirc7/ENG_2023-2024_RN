@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Routing;
 
 namespace WebApplication1.Controllers
 {
@@ -14,6 +16,11 @@ namespace WebApplication1.Controllers
             _uploadFolderPath = Path.Combine(env.ContentRootPath, "Uploads"); // Example path, adjust as needed
         }
 
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(7);
+        }
 
         [HttpPost("upload")]
         public async Task<IActionResult> Upload([FromForm] FileUploadModel model)
@@ -48,7 +55,7 @@ namespace WebApplication1.Controllers
 
                 // Return the URL to access the uploaded file
                 var baseUrl = $"{Request.Scheme}://{Request.Host}";
-                var fileUrl = Path.Combine(baseUrl, "api/files", "Uploads", fileName); // Adjust the route as needed
+                var fileUrl = Path.Combine(baseUrl, "", "Uploads", fileName); // Adjust the route as needed
 
                 return Ok(new { FilePath = fileUrl });
             }

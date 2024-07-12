@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruppin\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Nir\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruppin\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Nir\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruppin\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Nir\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\ruppin\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\ruppin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruppin\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Nir\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Nir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nir\\Desktop\\ENG_2023-2024_RN\\Lec07-1 ImgUploadDemo\\ServerSide\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ruppin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
