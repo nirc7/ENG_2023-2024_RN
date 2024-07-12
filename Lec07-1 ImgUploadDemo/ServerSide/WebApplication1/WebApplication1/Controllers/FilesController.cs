@@ -16,11 +16,6 @@ namespace WebApplication1.Controllers
             _uploadFolderPath = Path.Combine(env.ContentRootPath, "Uploads"); // Example path, adjust as needed
         }
 
-        [HttpGet]
-        public IActionResult Get()
-        {
-            return Ok(7);
-        }
 
         [HttpPost("upload")]
         public async Task<IActionResult> Upload([FromForm] FileUploadModel model)
@@ -75,6 +70,12 @@ namespace WebApplication1.Controllers
             {
                 System.IO.File.Delete(file);
             }
+        }
+
+        [HttpGet]
+        public IActionResult Get()
+        {
+            return Ok(7);
         }
     }
 
