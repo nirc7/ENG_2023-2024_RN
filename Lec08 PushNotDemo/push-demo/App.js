@@ -58,8 +58,13 @@ async function registerForPushNotificationsAsync() {
       handleRegistrationError('Permission not granted to get push token for push notification!');
       return;
     }
-    const projectId = "f264faa8-aaac-4799-8192-47b435892038";
-      // Constants?.expoConfig?.extra?.eas?.projectId ?? Constants?.easConfig?.projectId;
+
+    // const projectId = Constants.expoConfig.projectId;
+    // console.log('Project ID:', projectId);
+    
+
+    const projectId = // "f264faa8-aaac-4799-8192-47b435892038";
+     Constants?.expoConfig?.extra?.eas?.projectId ?? Constants?.easConfig?.projectId;
     if (!projectId) {
       handleRegistrationError('Project ID not found');
     }

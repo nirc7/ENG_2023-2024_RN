@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "push-demo",
-    "slug": "push-demo",
+    "slug": "pndemo1",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1d92b0f-c973-4bc1-a086-afbc41da90cf"
+      }
+    },
+    "owner": "nirc"
   }
 }
