@@ -18,7 +18,7 @@ async function sendPushNotification(expoPushToken) {
     sound: 'default',
     title: 'Original Title',
     body: 'And here is the body!',
-    data: { someData: 'goes here' },
+    data: { someData: 'goes here '  + Math.random()},
   };
 
   await fetch('https://exp.host/--/api/v2/push/send', {
@@ -63,7 +63,7 @@ async function registerForPushNotificationsAsync() {
     // console.log('Project ID:', projectId);
     
 
-    const projectId = // "f264faa8-aaac-4799-8192-47b435892038";
+    const projectId = 
      Constants?.expoConfig?.extra?.eas?.projectId ?? Constants?.easConfig?.projectId;
     if (!projectId) {
       handleRegistrationError('Project ID not found');
